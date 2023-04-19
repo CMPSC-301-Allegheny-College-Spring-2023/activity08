@@ -27,7 +27,8 @@ Figure 1: The Game is a Foot!! In this activity, you will be using text analysis
 
 * To learn how to edit and run code in R.
 * To gain experience working with R code from tutorials.
-* To draw conclusions re-applying code.
+* To use code (re-apply code) to answer minor research questions and draw conclusions concerning the data.
+* To gain experience in following the code written by another person.
 
 ## Instructions
 
