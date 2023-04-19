@@ -1,0 +1,23 @@
+# --> check the R program
+- src/code.r:
+    - description: Ensure that code.r file exists in the src/code.r directory
+      check: ConfirmFileExists
+    - description: Complete all TODOs and remove the TODO markers in the code.r
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Delete the 'Add Your Name Here' prompt in the File code.r
+      check: MatchFileFragment
+      options:
+        fragment: "Add your name here"
+        count: 0
+        exact: true
+
+
+# --> check that the number of commits in the Git repository is beyond a threshold
+- description: Have at least a specific minimum number of commits (3) in repository
+  check: CountCommits
+  options:
+    count: 3
