@@ -35,9 +35,7 @@ theme_set(theme_bw())
 
 
 #dataPath <-file.choose()
-
-dataPath  <- "data/*"
-#sherlock <- readtext("data/sherlock/novels/[0-9]*.txt") 
+dataPath  <- "../data/*"
 
 sherlock <- readtext(dataPath) 
 sherlock$doc_id <- str_sub(sherlock$doc_id, start = 4, end = -5)
