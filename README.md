@@ -4,7 +4,6 @@
 
 ## Due: 20 April 2023, Submit your work by the end of class
 
-
 <!-- add a line drop -->
 <center>
 &#x200B;
@@ -20,8 +19,6 @@ Figure 1: The Game is a Foot!! In this activity, you will be using text analysis
 <center>
 &#x200B;
 </center>
-
-
 
 ## Project Goals
 
